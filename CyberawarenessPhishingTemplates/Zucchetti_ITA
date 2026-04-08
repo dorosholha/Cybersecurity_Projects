@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zucchetti</title>
+    <style>
+        body {
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+        }
+        .contenitore {
+            padding: 10px;
+        }
+        #link_wrapper a {
+            border: 1px solid transparent;
+            padding: 12px 20px;
+            font-size: 14px;
+            color: white;
+            border-radius: 2px;
+            border: 1px solid #0072bc;
+            background-color: #0072bc;
+            text-align: center;
+            text-decoration: none;
+    }
+
+        
+        #link_wrapper2 {
+            text-decoration: none;
+            color: #0072bc;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenitore">
+        <div style="width: 100%; height: 15px; background-color: #0072bc;"></div>
+        <div style="margin-top: 40px;"> 
+        <p>La tua busta paga per il mese di Novembre è stata aggiornata ed è ora disponibile.</p>
+        <p>Ti informiamo che la tua busta paga presentava un'anomalia. L'anomalia riguarda un errore di calcolo dell'importo di paga per il mese di Novembre.</p>
+        <p>L'importo di paga corretto dovrebbe essere di <span style="color: #0072bc; font-weight: 700;">****,**</span> euro ma è stato calcolato come <span style="color: #0072bc; font-weight: 700;">****,**</span> euro. La differenza è di <span style="color: #0072bc; font-weight: 700;">***,**</span> euro.</p>
+        <p id="link_wrapper2"><strong>Per visualizzare l'importo di paga corretto, accedi alla tua area riservata My Zucchetti al seguente link: <a href="https://scam.com/">https:/MyZucchetti/login/payroll/ID564ygfhd</a></strong>.</p>
+        <p><strong>In alternativa scarica la tua busta paga aggiornata premendo qui sotto</strong></p>
+        </div>
+        <div id="link_wrapper" style="padding-top: 20px; padding-bottom: 20px;">
+            <a href="https://scam.com/">Scarica ora</a>
+        </div>
+        <div>
+            <p>Cordiali saluti,<br>
+                Il team Zucchetti</p>
+        </div>
+        <div> 
+            <img src="https://www.zucchetti.it/website/templates/website/img/logo.png" alt="logo Zucchetti" width="200px">
+        </div>
+    </div>
+</body>
+</html>
